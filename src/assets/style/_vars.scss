@@ -1,0 +1,41 @@
+:root {
+  --black: #000000;
+  --dark-gray: #2d2d2d;
+  --light-gray: #bdbdbd;
+  --orange: #f07c00;
+  --dark-blue: #8197b2;
+  --light-blue: #e2eaf0;
+  --white: #ffffff;
+  --footer: rgba(255, 255, 255, 0.52);
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("/src/assets/fonts/Mulish-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Semi-Bold";
+  src: url("/src/assets/fonts/Mulish-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("/src/assets/fonts/Mulish-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Extra-Bold";
+  src: url("/src/assets/fonts/Mulish-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
